@@ -27,6 +27,7 @@ class LoginController extends BaseController
 	{
 			$this->post_repo=$post;
 		$this->post_repo=$post;
+		$this->post_repo=$post;
 
 	}
 	public function check(LoginRequest $req)
