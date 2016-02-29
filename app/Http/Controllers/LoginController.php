@@ -26,6 +26,7 @@ class LoginController extends BaseController
 	public function __construct(PostRepositoryInterface $post)
 	{
 			$this->post_repo=$post;
+		$this->post_repo=$post;
 
 	}
 	public function check(LoginRequest $req)
